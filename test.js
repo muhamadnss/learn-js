@@ -41,3 +41,24 @@ console.log(myNewArray[3]);
 myNewArray.unshift("Salam kenal, ");
 console.log(myNewArray);
 console.log(myNewArray.splice(2,3));
+
+//Lesson Fifth
+console.log("\nFifth Lesson");
+var a = 19;
+var b = 300;
+var c = a + b;
+
+console.log(c);
+console.log(c + " adalah bilangan ganjil");
+
+console.log("\nKita coba lakukan operasi aritmatika");
+
+var g = 0;
+var d = a - b;
+console.log(g+=d);
+var e = a * b;
+var f = b / a;
+console.log("Ini adalah hasilnya : ",d, e, f);
+//Note : Kalau di concate menggunakan + ,jadinya si angka bakal jadi string
+//contohnya kayak ("Ini adalah hasilnya : " + d, e, f). Si variabel d bakal
+//jadi string setelah di concat
