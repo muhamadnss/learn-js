@@ -29,3 +29,15 @@ console.log(mynewAray); //Third lesson
 mynewAray.splice(1,0,"New Beginning"); //Third lesson
 console.log(mynewAray); //Third lesson
 console.log(unDefined); //Second lesson
+
+//Lesson Fourth
+let myNewArray = ["Hello", 90, true, "Aku Ahmad"];
+
+console.log(myNewArray[0]);
+console.log(myNewArray[3]);
+myNewArray.pop();
+myNewArray.push("Aku lahir di bandung");
+console.log(myNewArray[3]);
+myNewArray.unshift("Salam kenal, ");
+console.log(myNewArray);
+console.log(myNewArray.splice(2,3));
